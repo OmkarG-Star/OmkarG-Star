@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Omkar Gadhave, Data Engineer and Machine Learning Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F3F7FC"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0284C7"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#E6ECF5" stroke-width="1"/>
+    </pattern>
+    <style>
+      .t{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+      .dash{stroke-dasharray:6 8;animation:m 1.6s linear infinite}
+      @keyframes m{to{stroke-dashoffset:-28}}
+      .pulse{animation:p 2.4s ease-in-out infinite}
+      @keyframes p{0%,100%{opacity:.35}50%{opacity:1}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#grid)" opacity=".7"/>
+  <rect x=".5" y=".5" width="1199" height="299" rx="18" fill="none" stroke="#E2E8F0"/>
+
+  <!-- left: identity -->
+  <text x="56" y="104" class="t" font-size="50" font-weight="700" fill="#0F172A">Omkar Gadhave</text>
+  <text x="58" y="148" class="t" font-size="23" font-weight="600" fill="url(#flow)">Data Engineer  |  Machine Learning Engineer</text>
+  <text x="58" y="184" class="t" font-size="17" fill="#475569">Building data pipelines &amp; production ML systems · Pune, India</text>
+
+  <g class="t" font-size="13" font-weight="600">
+    <rect x="58"  y="214" width="72"  height="28" rx="14" fill="#F1F5F9" stroke="#CBD5E1"/><text x="94"  y="233" text-anchor="middle" fill="#334155">Python</text>
+    <rect x="138" y="214" width="56"  height="28" rx="14" fill="#F1F5F9" stroke="#CBD5E1"/><text x="166" y="233" text-anchor="middle" fill="#334155">SQL</text>
+    <rect x="202" y="214" width="56"  height="28" rx="14" fill="#F1F5F9" stroke="#CBD5E1"/><text x="230" y="233" text-anchor="middle" fill="#334155">ETL</text>
+    <rect x="266" y="214" width="82"  height="28" rx="14" fill="#F1F5F9" stroke="#CBD5E1"/><text x="307" y="233" text-anchor="middle" fill="#334155">FastAPI</text>
+    <rect x="356" y="214" width="76"  height="28" rx="14" fill="#F1F5F9" stroke="#CBD5E1"/><text x="394" y="233" text-anchor="middle" fill="#334155">Docker</text>
+    <rect x="440" y="214" width="66"  height="28" rx="14" fill="#F1F5F9" stroke="#CBD5E1"/><text x="473" y="233" text-anchor="middle" fill="#334155">SHAP</text>
+  </g>
+
+  <!-- right: pipeline motif -->
+  <g transform="translate(640,62)">
+    <path d="M70 88 H150" stroke="#0284C7" stroke-width="3" fill="none" class="dash"/>
+    <path d="M250 88 H330" stroke="#059669" stroke-width="3" fill="none" class="dash"/>
+    <path d="M410 88 C440 88 440 40 455 40" stroke="#059669" stroke-width="3" fill="none" class="dash"/>
+    <path d="M410 88 C440 88 440 136 455 136" stroke="#059669" stroke-width="3" fill="none" class="dash"/>
+
+    <!-- source -->
+    <g>
+      <rect x="0" y="58" width="70" height="60" rx="12" fill="#F8FAFC" stroke="#0284C7" stroke-opacity=".6"/>
+      <ellipse cx="35" cy="76" rx="18" ry="6" fill="none" stroke="#0284C7" stroke-width="2"/>
+      <path d="M17 76 V98 A18 6 0 0 0 53 98 V76" fill="none" stroke="#0284C7" stroke-width="2"/>
+      <text x="35" y="140" class="t" font-size="12" text-anchor="middle" fill="#475569">raw</text>
+    </g>
+    <!-- transform -->
+    <g>
+      <rect x="150" y="58" width="100" height="60" rx="12" fill="#F8FAFC" stroke="#0284C7" stroke-opacity=".6"/>
+      <rect x="166" y="74" width="68" height="8" rx="4" fill="#0284C7" opacity=".85"/>
+      <rect x="166" y="88" width="50" height="8" rx="4" fill="#0284C7" opacity=".55"/>
+      <rect x="166" y="102" width="60" height="8" rx="4" fill="#0284C7" opacity=".35"/>
+      <text x="200" y="140" class="t" font-size="12" text-anchor="middle" fill="#475569">clean · test</text>
+    </g>
+    <!-- model -->
+    <g>
+      <rect x="330" y="58" width="80" height="60" rx="12" fill="#F8FAFC" stroke="#059669" stroke-opacity=".7"/>
+      <circle cx="350" cy="76" r="5" fill="#059669"/><circle cx="350" cy="100" r="5" fill="#059669"/>
+      <circle cx="390" cy="88" r="6" fill="#059669" class="pulse"/>
+      <path d="M355 76 L384 87 M355 100 L384 89" stroke="#059669" stroke-width="1.6"/>
+      <text x="370" y="140" class="t" font-size="12" text-anchor="middle" fill="#475569">model</text>
+    </g>
+    <!-- outputs -->
+    <g class="t" font-size="12" font-weight="600">
+      <rect x="455" y="24" width="64" height="32" rx="9" fill="#ECFDF5" stroke="#059669" stroke-opacity=".7"/>
+      <text x="487" y="45" text-anchor="middle" fill="#047857">API</text>
+      <rect x="455" y="120" width="64" height="32" rx="9" fill="#ECFDF5" stroke="#059669" stroke-opacity=".7"/>
+      <text x="487" y="141" text-anchor="middle" fill="#047857">insight</text>
+    </g>
+  </g>
+</svg>
