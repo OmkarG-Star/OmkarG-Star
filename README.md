@@ -1,11 +1,11 @@
 # Omkar Gadhave
 
-**Data Engineer & ML Engineer** · Reliable data pipelines and production ML systems · Pune, India
+**Data Engineer | Machine Learning Engineer** · Building data pipelines & production ML systems · Pune, India
 
 I build data platforms that don't break quietly, and ML systems people can trust in production. Four years in data, MIS and HR analytics. Now shipping that work as tested, containerised software with CI.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-omkar--gadhave--data-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omkar-gadhave-data/)
-![Open to](https://img.shields.io/badge/Open%20to-Data%20Engineer%20%C2%B7%20ML%20Engineer-2ea44f)
+![Open to](https://img.shields.io/badge/Open%20to-Data%20Engineer%20%C2%B7%20Machine%20Learning%20Engineer-2ea44f)
 
 ---
 
@@ -53,4 +53,4 @@ Explainable resume screening: MiniLM sentence embeddings on ONNX (no PyTorch at 
 
 ---
 
-Hiring for a Data Engineer or ML Engineer role? [Message me on LinkedIn](https://www.linkedin.com/in/omkar-gadhave-data/).
+Hiring for a Data Engineer or Machine Learning Engineer role? [Message me on LinkedIn](https://www.linkedin.com/in/omkar-gadhave-data/).
