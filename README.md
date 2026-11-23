@@ -48,6 +48,44 @@ Data Analyst with four years in HR analytics, MIS reporting and data analysis. I
   </tr>
 </table>
 
+### Credit Risk on Real Lending Club Loans · *data science*
+
+<table>
+  <tr>
+    <td width="55%">
+      <a href="https://github.com/OmkarG-Star/AI-Credit-Risk-Decision-System"><img src="https://raw.githubusercontent.com/OmkarG-Star/AI-Credit-Risk-Decision-System/main/reports/figures/flag_by_grade.png" alt="Flagged loans earned lower returns than unflagged loans within Lending Club grades A to F in 2014"></a>
+    </td>
+    <td>
+      Probability of default for 309,955 real loans, trained on 2007–2012 and tested on 136,967 loans from 2014.
+      <br><br>
+      Loans flagged as <b>riskier than their grade returned 7.6%</b> over three years against 9.5% for the rest. ROC-AUC 0.638 from application data alone, benchmarked against Lending Club's own grade.
+      <br><br>
+      <code>LightGBM</code> <code>Calibration</code> <code>Out-of-time validation</code> <code>PSI</code> <code>SHAP</code> <code>Streamlit</code>
+      <br><br>
+      <a href="https://credit-risk-lending-club.onrender.com"><b>Live demo</b></a> · <a href="https://github.com/OmkarG-Star/AI-Credit-Risk-Decision-System">Code</a>
+    </td>
+  </tr>
+</table>
+
+### A/B Test: Game Retention Experiment · *statistics*
+
+<table>
+  <tr>
+    <td width="55%">
+      <a href="https://github.com/OmkarG-Star/ab-testing-game-retention"><img src="https://raw.githubusercontent.com/OmkarG-Star/ab-testing-game-retention/main/reports/figures/effects.png" alt="Moving the game's first gate to level 40 lowered 7-day retention by 0.82 points"></a>
+    </td>
+    <td>
+      A real experiment on 90,189 players. Moving the first gate to level 40 <b>cut 7-day retention by 0.82 points</b> (p = 0.002).
+      <br><br>
+      Caught a sample ratio mismatch (p = 0.009) and showed the decision survives the worst case. Includes power analysis, Holm correction and a peeking simulation.
+      <br><br>
+      <code>Hypothesis testing</code> <code>Power analysis</code> <code>Bootstrap</code> <code>Bayesian</code>
+      <br><br>
+      <a href="https://github.com/OmkarG-Star/ab-testing-game-retention">Code</a>
+    </td>
+  </tr>
+</table>
+
 ### India Air Quality Data Platform · *data pipeline*
 
 <a href="https://github.com/OmkarG-Star/india-air-quality-data-platform"><img src="./assets/aqp-pipeline.svg" alt="Pipeline: Open-Meteo API to Python ingestion to raw JSON and bronze Parquet layers to quality checks, built and running daily; Airflow, dbt and AQI forecasting are the next milestones" width="100%"></a>
@@ -85,7 +123,7 @@ Idempotent daily ingestion of hourly air-quality data for Indian cities into raw
 **Data:** Python · SQL · Pandas · DuckDB · Parquet · ETL · Data Quality  
 **Serving & delivery:** FastAPI · REST APIs · Docker · Pytest · GitHub Actions · CI/CD  
 **Analytics:** Power BI · DAX · React · TypeScript  
-**Next:** A/B testing and experimentation · credit risk on real loan data
+**Statistics:** A/B testing · Power analysis · Bootstrap · Calibration · PSI
 
 ---
 
