@@ -1,22 +1,14 @@
-<img src="./assets/header.svg" alt="Omkar Gadhave · Data Engineer | Machine Learning Engineer · Building data pipelines & production ML systems" width="100%">
+<img src="./assets/header.svg" alt="Omkar Gadhave · Data Analyst · HR analytics, MIS reporting and machine learning · Pune, India" width="100%">
 
 <p>
   <a href="https://www.linkedin.com/in/omkar-gadhave-data/"><img src="https://img.shields.io/badge/LinkedIn-omkar--gadhave--data-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <img src="https://img.shields.io/badge/Open%20to-Data%20Engineer%20%C2%B7%20Machine%20Learning%20Engineer-2ea44f" alt="Open to Data Engineer and Machine Learning Engineer roles"></p>
+  <img src="https://img.shields.io/badge/Open%20to-Data%20Analyst%20roles-2ea44f" alt="Open to Data Analyst roles"></p>
 
-I build data platforms that don't break quietly, and ML systems people can trust in production. Four years in data, MIS and HR analytics, now shipped as tested, containerised software with CI.
+Data Analyst with four years in HR analytics, MIS reporting and data analysis. I also build machine learning models that are validated honestly and explained clearly; they ship with held-out results, the weak numbers included.
 
 ---
 
 ## Shipped in public
-
-### India Air Quality Data Platform · *data engineering*
-
-<a href="https://github.com/OmkarG-Star/india-air-quality-data-platform"><img src="./assets/aqp-pipeline.svg" alt="Pipeline: Open-Meteo API to Python ingestion to raw JSON and bronze Parquet layers to quality checks, built and running daily; Airflow, dbt and AQI forecasting are the next milestones" width="100%"></a>
-
-Idempotent daily ingestion of hourly air-quality data for Indian cities into raw and bronze Parquet layers, with data-quality checks and per-city fault isolation. **[Code →](https://github.com/OmkarG-Star/india-air-quality-data-platform)**
-
-`Python` `ETL` `Parquet` `Data Quality` `Pytest` `GitHub Actions`
 
 ### Retention Intelligence · *ML engineering*
 
@@ -56,6 +48,14 @@ Idempotent daily ingestion of hourly air-quality data for Indian cities into raw
   </tr>
 </table>
 
+### India Air Quality Data Platform · *data pipeline*
+
+<a href="https://github.com/OmkarG-Star/india-air-quality-data-platform"><img src="./assets/aqp-pipeline.svg" alt="Pipeline: Open-Meteo API to Python ingestion to raw JSON and bronze Parquet layers to quality checks, built and running daily; Airflow, dbt and AQI forecasting are the next milestones" width="100%"></a>
+
+Idempotent daily ingestion of hourly air-quality data for Indian cities into raw and bronze Parquet layers, with data-quality checks and per-city fault isolation. **[Code →](https://github.com/OmkarG-Star/india-air-quality-data-platform)**
+
+`Python` `ETL` `Parquet` `Data Quality` `Pytest` `GitHub Actions`
+
 <sub>Live demos run on a free plan, so the first load can take up to a minute.</sub>
 
 <details>
@@ -64,7 +64,6 @@ Idempotent daily ingestion of hourly air-quality data for Indian cities into raw
 
 | Project | What it does | Stack |
 |---|---|---|
-| [AI Credit Risk Decision System](https://github.com/OmkarG-Star/AI-Credit-Risk-Decision-System) | Loan-default risk scoring with model comparison and SHAP explanations | XGBoost · SHAP · Streamlit |
 | [Customer Segmentation Strategy](https://github.com/OmkarG-Star/AI-Customer-Segmentation-Strategy-System) | RFM + KMeans segments mapped to marketing actions | SQL · scikit-learn · Streamlit |
 | [HR Analytics Dashboard](https://github.com/OmkarG-Star/HR-Analytics-Dashboard-PowerBI) | Attrition, salary and workforce insights | Power BI · DAX |
 
@@ -82,12 +81,12 @@ Idempotent daily ingestion of hourly air-quality data for Indian cities into raw
 
 <img src="https://skillicons.dev/icons?i=py,fastapi,docker,githubactions,sklearn,react,ts,git&theme=light" alt="Python, FastAPI, Docker, GitHub Actions, scikit-learn, React, TypeScript, Git">
 
-**Data engineering:** Python · SQL · ETL · Data Modeling · Data Quality · Parquet · DuckDB · Pandas  
-**ML engineering:** LightGBM · scikit-learn · SHAP · NLP · Survival Analysis · ONNX  
+**Modelling:** LightGBM · scikit-learn · SHAP · Calibration · Survival Analysis · NLP · ONNX  
+**Data:** Python · SQL · Pandas · DuckDB · Parquet · ETL · Data Quality  
 **Serving & delivery:** FastAPI · REST APIs · Docker · Pytest · GitHub Actions · CI/CD  
 **Analytics:** Power BI · DAX · React · TypeScript  
-**Next:** Airflow · dbt · cloud object storage
+**Next:** A/B testing and experimentation · credit risk on real loan data
 
 ---
 
-Hiring for a Data Engineer or Machine Learning Engineer role? [Message me on LinkedIn](https://www.linkedin.com/in/omkar-gadhave-data/).
+Hiring a Data Analyst? [Message me on LinkedIn](https://www.linkedin.com/in/omkar-gadhave-data/).
