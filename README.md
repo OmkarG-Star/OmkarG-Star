@@ -67,6 +67,25 @@ Data Analyst with four years in HR analytics, MIS reporting and data analysis. I
   </tr>
 </table>
 
+### Two-Wheeler Loan Risk on Real Indian Loans · *data science*
+
+<table>
+  <tr>
+    <td width="55%">
+      <a href="https://github.com/OmkarG-Star/india-two-wheeler-loan-risk"><img src="https://raw.githubusercontent.com/OmkarG-Star/india-two-wheeler-loan-risk/main/reports/figures/capture.png" alt="Reviewing the riskiest 19% of October 2018 loans catches 30% of first-EMI defaults"></a>
+    </td>
+    <td>
+      Predicts missed first EMIs on 233,154 real L&amp;T Finance two-wheeler loans, tested on 98,364 loans from October 2018. Demo in rupees.
+      <br><br>
+      Reviewing the <b>riskiest fifth catches 30% of first-EMI defaults</b>. ROC-AUC 0.642 against 0.550 for the bureau band, with half the borrowers new to credit.
+      <br><br>
+      <code>LightGBM</code> <code>Calibration</code> <code>Out-of-time validation</code> <code>SHAP</code> <code>Streamlit</code>
+      <br><br>
+      <a href="https://india-loan-risk.onrender.com"><b>Live demo</b></a> · <a href="https://github.com/OmkarG-Star/india-two-wheeler-loan-risk">Code</a>
+    </td>
+  </tr>
+</table>
+
 ### A/B Test: Game Retention Experiment · *statistics*
 
 <table>
@@ -81,7 +100,7 @@ Data Analyst with four years in HR analytics, MIS reporting and data analysis. I
       <br><br>
       <code>Hypothesis testing</code> <code>Power analysis</code> <code>Bootstrap</code> <code>Bayesian</code>
       <br><br>
-      <a href="https://github.com/OmkarG-Star/ab-testing-game-retention">Code</a>
+      <a href="https://ab-test-calculator-rmke.onrender.com"><b>Live calculator</b></a> · <a href="https://github.com/OmkarG-Star/ab-testing-game-retention">Code</a>
     </td>
   </tr>
 </table>
