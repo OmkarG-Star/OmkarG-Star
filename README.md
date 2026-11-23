@@ -2,7 +2,7 @@
 
 <p>
   <a href="https://www.linkedin.com/in/omkar-gadhave-data/"><img src="https://img.shields.io/badge/LinkedIn-omkar--gadhave--data-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <img src="https://img.shields.io/badge/Open%20to-Data%20Analyst%20roles-2ea44f" alt="Open to Data Analyst roles"></p>
+  <img src="https://img.shields.io/badge/Open%20to-Data%20Scientist%20%C2%B7%20Data%20Analyst%20roles-2ea44f" alt="Open to Data Scientist and Data Analyst roles"></p>
 
 Data Analyst with four years in HR analytics, MIS reporting and data analysis. I also build machine learning models that are validated honestly and explained clearly; they ship with held-out results, the weak numbers included.
 
@@ -89,4 +89,4 @@ Idempotent daily ingestion of hourly air-quality data for Indian cities into raw
 
 ---
 
-Hiring a Data Analyst? [Message me on LinkedIn](https://www.linkedin.com/in/omkar-gadhave-data/).
+Hiring for a Data Scientist or Data Analyst role? [Message me on LinkedIn](https://www.linkedin.com/in/omkar-gadhave-data/).
